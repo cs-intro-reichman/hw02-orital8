@@ -9,7 +9,7 @@ public class DamkaBoard {
 		if ( num % 2 != 0 ){
 			for(int j = 0; j < num;j++){
 				if (j==num)
-					System.out.print("*");
+					System.out.print("* ");
 				else
 			System.out.print("* ");
 				}
