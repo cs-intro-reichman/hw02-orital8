@@ -8,12 +8,18 @@ public class DamkaBoard {
 	for(int i = 1; i <= num;i++){
 		if ( num % 2 != 0 ){
 			for(int j = 0; j < num;j++){
+				if (j==num)
+					System.out.print("*");
+				else
 			System.out.print("* ");
 				}
 				}
 			else
 			{
 			for(int m = 1; m <= num;m++){
+				if (m==num)
+					System.out.print("*");
+				else
 			System.out.print("* ");
 			}
 		}
