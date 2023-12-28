@@ -12,23 +12,23 @@ public class OneOfEach {
 		checkgirl= true;			
 		else
 			checkboy=true;	
-		if (randomNumber1 <= 4){
-		System.out.print("b"); 
-		}
-		else{
-		System.out.print("g");
-		}
+		if (randomNumber1 <= 4)
+		System.out.print("b "); 
+		
+		else
+		System.out.print("g ");
+		
 		int i = 1;
 			while (checkboy == false || checkgirl == false){
 			randomNumber1 = (int) (Math.random() * (10 ));
 			if (randomNumber1<=4){
-			System.out.print("b");
+			System.out.print("b ");
 			checkboy= true;
 			i++;
 			}
 				else;
 				if (randomNumber1 > 4) {
-				System.out.print("g");
+				System.out.print("g ");
 				checkgirl=true;
 				i++;
 					}
